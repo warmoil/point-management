@@ -1,0 +1,11 @@
+spring:
+  batch:
+    job:
+      names: ${job.name:NONE} #spring.batch.job.names 를 job.name 으로 치환
+    jdbc:
+      initialize-schema: always #초기 batch 스키마가 없으면 생성
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop #entity 를 보고 자동으로 데이터베이스  생성여부를 validate (생성x 검증만)
+
