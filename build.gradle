@@ -25,7 +25,7 @@ dependencies {
     annotationProcessor 'com.querydsl:querydsl-apt'
     annotationProcessor group: 'com.querydsl' , name: 'querydsl-apt' , classifier:'jpa'
     annotationProcessor 'jakarta.persistence:jakarta.persistence-api'
-    annotationProcessor 'jakarta.annotation:jakarta.annotion-api'
+    annotationProcessor 'jakarta.annotation:jakarta.annotation-api'
 
     //lombok
     compileOnly 'org.projectlombok:lombok'
